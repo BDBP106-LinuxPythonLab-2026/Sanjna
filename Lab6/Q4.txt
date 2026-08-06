@@ -1,0 +1,5 @@
+which: locates a command 
+
+whereis: locates the binary, source and manual page files for a command
+
+which locates the exact executable file, whereis shows us the manual pages as well

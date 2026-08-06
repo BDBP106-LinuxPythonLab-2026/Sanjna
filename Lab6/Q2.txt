@@ -1,0 +1,10 @@
+ PS1 is a variable that defines the appearance of the command prompt
+ 
+\033[01:32m changes text color to bright green
+\u displays username
+@ prints @ symbol
+\h displays host name
+\w displays current working directory
+\a displays a bell character
+
+

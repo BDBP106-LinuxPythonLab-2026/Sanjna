@@ -1,0 +1,11 @@
+HISTCONTROL
+controls how command history is saved
+ignoreboth: does not save commands that start with a space character or commands that match the immediately previous command
+
+HISTSIZE
+controls the size of the history list for your current active terminal session
+1000
+
+HISTFILESIZE
+controls the maximum lines stored in the history file
+2000

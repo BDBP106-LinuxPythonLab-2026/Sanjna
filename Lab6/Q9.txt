@@ -1,0 +1,39 @@
+9 (i) lists the directories, in this case there is only the current directory - /home/ibab
+
+
+
+
+
+
+
+
+
+(iii) all the directories created are listed with the current directory listed against index 0
+
+
+
+
+(iv) the stack of directories has been rotated such that the directory at index 1 is pushed to the top
+
+
+
+
+
+
+(v) the current directory reverts to the previous current directory
+
+(vi) current directory has changed from /Downloads to /tmp
+
+
+
+
+
+(vii) the directory at index 0 (in this case /tmp) has been removed
+
+
+
+
+
+
+(viii) the directory at index 2 (/var/log) has been removed
+(ix) the current directory is always listed against index 0
