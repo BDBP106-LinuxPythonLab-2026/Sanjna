@@ -1,0 +1,53 @@
+  Q11
+  In Normal Mode,
+  :70 enter
+  i
+  "This is an important reminder for you."
+  esc
+  :70,70s/important/critical
+  
+  Q12
+  Current line number is 70.
+  "Shift g" or ":$" goes to the end of the file
+  ":70" goes to line 70
+  
+  Q13
+  In normal mode,
+  "Shift g" "$" "a" "enter"
+  'The quick brown fox (who was very quick) jumps over the lazy dog."
+  "esc"
+  "Shift g"
+  Navigate to the fourth word using "e"
+  "Ctrl v"
+  Select text till the closing parenthesis using "l"
+  "x" to delete
+  
+  Q15
+  ":set nu'
+  ":1,3s/   / /g"
+  ":1,3s/  / /g"
+  ":5"
+  "r" "T"
+  ':5,5s/ovr/over"
+  ":6,6s/a/an"
+  navigate to amaziing and enter "x" when the cursor highlights i
+  ":7" "r" "I"
+  ":8" "r" "P" 
+  "r" "b"
+  :8,8s/chalenging/challenging
+  ":10" "$" "a" "."
+  esc
+  ":11" "$" "a" "?"
+  ":12,12s/   / /g" "$" "a" "."
+  esc
+  ":13,13s/\.../ /g"
+  navigate to the words (literally, totally) to be deleted and enter "dw"
+  ":16,17S/TODO//"
+  i
+  insert spaces or delete spaces
+  esc
+  
+
+
+
+
