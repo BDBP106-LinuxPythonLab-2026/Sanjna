@@ -1,0 +1,6 @@
+x=float(input("Enter x coordinate: "))
+y=float(input("Enter y coordinate: "))
+if x>0 and y>0: print ("The point is in the First quadrant")
+if x<0 and y>0: print ("The point is in the Second quadrant")
+if x<0 and y<0: print ("The point is in the Third quadrant")
+if x>0 and y<0: print ("The point is in the Fourth quadrant")
